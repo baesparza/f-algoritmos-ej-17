@@ -1,0 +1,4 @@
+Ciclo Repetitivo
+	Los ciclos repetitivos también llamados lazos o bucles permiten repetir una operación o secuencia de operaciones en función de ciertas condiciones.
+	Es un segmento de un algoritmo o programa cuyas instrucciones se repiten un número determinado de veces mientras se cumpla una determinada condición.
+
