@@ -2,46 +2,37 @@ package academico;
 
 /**
  *
- * @author Salas
+ * @author baesparza
  */
 public class Carrera {
+
     private String nombre;
     private String modalidad;
     
-    public Carrera(){
-        modalidad = "distancia";
+    public Carrera() { }
+    
+    public Carrera(String modalidad) {
+        this.modalidad = modalidad;
     }
     
-    public Carrera(String md){
-        modalidad = md;
+    public Carrera(String modalidad, String nombre) {
+        this.nombre = nombre;
+        this.modalidad = modalidad;
     }
     
-    public Carrera(String md, String n){
-        modalidad = md;
-        nombre = n;
-    }
-    public void establecer_nombre(String n){
-        nombre = n;
-    }
-    
-    public void establecer_modalidad(String n){
-        modalidad = n;
-    }
-    
-    public String obtener_nombre(){
-        return nombre;
-    }
-    
-    public String obtener_modalidad(){
-        return modalidad;
-    }
-    
-    @Override
-    public String toString(){
-        String cadena = String.format("Modalidad %s - Carrera %s\n",
-                obtener_modalidad(), this.obtener_nombre());
-        return cadena;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
+    public String getNombre() {
+        return this.nombre;
+    }
+    
+    public void setModalidad(String modalidad) {
+        this.modalidad = modalidad;
+    }
+
+    public String getModalidad() {
+        return this.modalidad;
+    }
 }
-
