@@ -11,7 +11,7 @@ public class Principal {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        Carrera c1 = new Carrera("Contabilidad", "presencial");
+        Carrera c1 = new Carrera("presencial", "Contabilidad");
         Carrera c2 = new Carrera("Economia", "distancia");
         
         Asignatura a1 = new Asignatura(c1);
