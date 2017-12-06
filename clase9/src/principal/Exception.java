@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class Exception {
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        /*Scanner input = new Scanner(System.in);
         int num1, num2, num3;
         while (true) {
             System.out.println("Ingrese un numero");
@@ -23,10 +23,12 @@ public class Exception {
                 break;
             } catch(ArithmeticException e) {
                 System.err.println(e);
-                throw e;
-                //retry;
+                // throw e;
             }
-        }
+        }*/
+        Asignacion a = new Asignacion(4);
+        System.out.println(a.toString());
+        
     }
     
 }
