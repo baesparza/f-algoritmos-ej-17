@@ -1,0 +1,4 @@
+Nombre;Apellido;Nota1;Nota2;Promedio
+Jose;Alcivar;15(Matematica);13(Ingles);14
+Luis;Andrade;17(Matematica);15(Ingles);16
+Lorena;Carpio;20(Matematica);18(Ingles);19
